@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.techfantasy.thepapp.DeclareFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="I am Happy to declare my ThepStory"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etxtPatNameThep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertzuiopasdfghjklyxcvbnm "
+                android:hint="Partner Name*"
+                android:inputType="text"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etxtUrNamethep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="qwertzuiopasdfghjklyxcvbnm "
+                android:hint="Your Name*"
+                android:inputType="text"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etxtUrstorythep"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:digits="qwertzuiopasdfghjklyxcvbnm "
+                android:hint="Thep Story"
+
+                android:inputType="textMultiLine"
+                android:minHeight="80sp"
+                android:isScrollContainer="true"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/date1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="10"
+                android:hint="Start Date* - dd/mm/yyyy"
+                android:inputType="date" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/date2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="10"
+                android:hint="End Date* - dd/mm/yyyy"
+                android:inputType="date" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/btnDeclare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Declare" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

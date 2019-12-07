@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tCalc"
+            android:icon="@drawable/calculator"
+            android:title="Thep Calculator" />
+        <item
+            android:id="@+id/tdeclare"
+            android:icon="@drawable/theatremasks"
+            android:title="Declare My Thep" />
+        <item
+            android:id="@+id/trecent"
+            android:icon="@drawable/passageoftime"
+            android:title="Recent Thepz" />
+        <item
+            android:id="@+id/ttroll"
+            android:icon="@drawable/laughing"
+            android:title="Thep Trolls" />
+        <item
+            android:id="@+id/tstories"
+            android:icon="@drawable/videocamera"
+            android:title="Thep Stories" />
+        <item
+            android:id="@+id/tsongs"
+            android:icon="@drawable/musicplayer"
+            android:title="Thep Songs" />
+        <item
+            android:id="@+id/tcommunity"
+            android:icon="@drawable/network"
+            android:title="Thep Community" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/tfeed"
+                android:icon="@drawable/handholdingupapen"
+                android:title="FeedBack" />
+            <item
+                android:id="@+id/tabout"
+                android:icon="@drawable/groupofmen"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
